@@ -69,3 +69,14 @@ p {
   font-weight: bold;
   padding: 20px 0px;
 }
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  padding: 10px;
+  font-size: 25px;
+  color: #fff;
+}

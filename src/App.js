@@ -1,6 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import SingleCard from "./components/SingleCard";
+import Footer from "./components/Footer";
 
 const cardImages = [
   { src: "/img/bulbasaur.png", matched: false },
@@ -83,6 +84,7 @@ function App() {
         ))}
       </div>
       <p>Turns: {turns}</p>
+      <Footer />
     </div>
   );
 }
