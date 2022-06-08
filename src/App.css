@@ -43,6 +43,7 @@ button:hover {
   position: absolute;
   transform: rotateY(90deg);
   transition: all ease-in 0.2s;
+  width: 80;
 }
 .flipped .front {
   transform: rotateY(0deg);
